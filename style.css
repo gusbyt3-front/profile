@@ -1,0 +1,235 @@
+ @import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');               
+
+:root {
+    --background-color: black;
+    --cor-principal: white;
+    --fonte: 'Satoshi', sans-serif;
+    --fonte-hover: poppins, sans-serif;
+                                                
+}
+
+* {
+    cursor: url(https://r2.guns.lol/2ab87a7b-0e44-4477-94c9-6f2c3f98e95d.png) 16 16, auto !important;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: var(--fonte);
+    background:linear-gradient(to bottom, rgb(53, 52, 52), black);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--cor-principal);
+}
+
+ #bg-video {
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+    opacity: 30%;
+}
+
+#bg-mobile{
+     bottom: 0;
+    height: 100vh;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -2;
+    opacity: 0%;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container__lista{
+    display: flex;
+    gap: 1em;
+   
+}
+.lista-1{
+    transition: width 0.5s, height 0.5s; 
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    background-image: url(imagens/gif-botao.gif);
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+}
+
+.lista-1:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image:url(imagens/gif-botao-hover.gif);
+    color: rgb(136, 14, 14);
+}
+
+.lista-2{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    background-image: url(imagens/花譜3rd\ ONE-MAN\ LIVE「不可解参\(狂\)」-\ 狂感覚\ —\ Suguru\ Asakura.gif);
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    transition: width 0.5s, height 0.5s;
+}
+
+.lista-2:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image:url(imagens/moon\ hover.gif);
+    color: rgb(136, 14, 14);
+}
+
+.lista-3{
+    transition: width 0.5s, height 0.5s; 
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    background-image: url(imagens/Glow\ Good\ Night\ GIF\ by\ xponentialdesign\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.lista-3:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image:url(imagens/Glow\ Black\ And\ White\ GIF\ by\ xponentialdesign\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+    color: rgb(136, 14, 14);
+}
+
+.container__icone{
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    align-self: center;
+     transition: width 0.5s, height 0.5s; /* Adiciona transição suave */
+}
+
+
+.container__icone:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+
+.container__central {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+.central{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.container__titulo{
+    font-size: 40px;
+}
+
+.text-glow{
+    opacity: 90%;
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 80px rgb(255, 255, 255);
+}
+
+.container__subtitulo{
+    font-weight: 500;
+    font-size: 19px;
+    opacity: 70%;
+}
+
+.redes-sociais {
+    display: flex;
+     width: 80px;
+     align-items: center;
+     justify-content: center;
+     gap: 1em;
+}
+
+.icone-redes{
+    height: 30px;
+    position: relative;
+    left: 50%;
+}
+
+
+@media(max-width: 430px) {
+
+    .container__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   
+}
+
+    .redes-sociais{
+        width: 30px;
+    }
+
+    #bg-video{
+        opacity: 0%;
+    }
+
+    #bg-mobile {
+        opacity: 40%;
+        background-position: center;
+        background-size: cover;
+    }
+}
