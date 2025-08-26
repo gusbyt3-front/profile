@@ -20,8 +20,11 @@ Este repositório foi criado como parte de um exercício criativo e técnico, us
 
 ## 📸 Preview do projeto
 
-> Uma interface limpa, responsiva e com navegação intuitiva — tudo pensado para refletir a personalidade de Flerian.
+>Desktop / Phone / Tablet
+![Preview do site](pc.png)
 
-![Preview do site](<img width="1907" height="960" alt="Screenshot_3" src="https://github.com/user-attachments/assets/eb398e61-b688-440b-ae4c-afe68b9cdf2c" />
-) 
+![Preview do site](phone.png)
+
+![Preview do site](tablet.png)
 ---
+
